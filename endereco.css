@@ -239,3 +239,27 @@ section{
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.6);
   }
+  #controle-fonte{
+    position: fixed;
+    top: 68px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  #controle-fonte button{
+    background-color: var(--main-color);
+    color: var(--white);
+    border: none;
+    margin: 2px;
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #controle-fonte button:hover{
+    background-color: #000000;
+  }
